@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <div>
@@ -18,27 +20,29 @@ export default function Home() {
               <section className="text-gray-700 body-font">
                 <div className="container px-5 py-8 mx-auto">
                   <div className="flex flex-wrap -m-4">
-                    <div className="w-full p-4 md:w-1/2 lg:w-1/4">
-                      <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
-                        <div className="flex items-center mb-3">
-                          <h2 className="text-2xl font-medium text-gray-900 title-font">
-                            Erupsi Merapi 27 Mei 2010
-                          </h2>
-                        </div>
-                        <div className="flex-grow mt-2">
-                          <p className="inline-flex items-end">
-                            <span className="text-2xl font-semibold">27</span>
-                            <span className="ml-2">Posko</span>
-                          </p>
-                          <p className="inline-flex items-end mt-2">
-                            <span className="text-2xl font-semibold text-red-500">
-                              20%
-                            </span>
-                            <span className="ml-2">Bantuan terpenuhi</span>
-                          </p>
+                    <Link href="/posko/apa">
+                      <div className="w-full p-4 cursor-pointer md:w-1/2 lg:w-1/4">
+                        <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
+                          <div className="flex items-center mb-3">
+                            <h2 className="text-2xl font-medium text-gray-900 title-font">
+                              Erupsi Merapi 27 Mei 2010
+                            </h2>
+                          </div>
+                          <div className="flex-grow mt-2">
+                            <p className="inline-flex items-end">
+                              <span className="text-2xl font-semibold">27</span>
+                              <span className="ml-2">Posko</span>
+                            </p>
+                            <p className="inline-flex items-end mt-2">
+                              <span className="text-2xl font-semibold text-red-500">
+                                20%
+                              </span>
+                              <span className="ml-2">Bantuan terpenuhi</span>
+                            </p>
+                          </div>
                         </div>
                       </div>
-                    </div>
+                    </Link>
                     <div className="w-full p-4 md:w-1/2 lg:w-1/4">
                       <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
                         <div className="flex items-center mb-3">
