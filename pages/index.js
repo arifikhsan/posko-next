@@ -3,84 +3,81 @@ export default function Home() {
     <div>
       <header className="border-b">
         <div className="flex items-center justify-start text-gray-900">
-          <p className="p-4 font-bold text-2xl">Posko</p>
+          <p className="p-4 text-2xl font-bold text-blue-500">Posko</p>
         </div>
       </header>
       <main>
         <div className="p-4 space-y-20">
           <div className="space-y-2">
-            <div>
-              <h1 className="text-4xl font-bold">Kondisi posko saat ini</h1>
+            <div className="py-2">
+              <h1 className="text-4xl font-bold text-blue-500">
+                Kondisi posko saat ini
+              </h1>
             </div>
             <div>
               <section className="text-gray-700 body-font">
-                <div className="container px-5 py-16 mx-auto">
+                <div className="container px-5 py-8 mx-auto">
                   <div className="flex flex-wrap -m-4">
                     <div className="p-4 md:w-1/3">
-                      <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                      <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
                         <div className="flex items-center mb-3">
-                          <h2 className="text-gray-900 text-lg title-font font-medium">
-                            Shooting Stars
+                          <h2 className="text-2xl font-medium text-gray-900 title-font">
+                            Erupsi Merapi 27 Mei 2010
                           </h2>
                         </div>
-                        <div className="flex-grow">
-                          <p className="leading-relaxed text-base">
-                            Blue bottle crucifix vinyl post-ironic four dollar
-                            toast vegan taxidermy. Gastropub indxgo juice
-                            poutine.
+                        <div className="flex-grow mt-2">
+                          <p className="inline-flex items-baseline">
+                            <span className="text-xl font-semibold">27</span>
+                            <span className="ml-2">Posko</span>
                           </p>
-                          <a className="mt-3 text-red-500 inline-flex items-center">
-                            Learn More
-                          </a>
+                          <p className="inline-flex items-baseline mt-2">
+                            <span className="text-xl font-semibold text-red-500">
+                              20%
+                            </span>
+                            <span className="ml-2">Bantuan terpenuhi</span>
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                      <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                      <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
                         <div className="flex items-center mb-3">
-                          <h2 className="text-gray-900 text-lg title-font font-medium">
-                            The Catalyzer
+                          <h2 className="text-2xl font-medium text-gray-900 title-font">
+                            Anim tempor ut excepteur non 27 Mei 2010
                           </h2>
                         </div>
-                        <div className="flex-grow">
-                          <p className="leading-relaxed text-base">
-                            Blue bottle crucifix vinyl post-ironic four dollar
-                            toast vegan taxidermy. Gastropub indxgo juice
-                            poutine.
+                        <div className="flex-grow mt-2">
+                          <p className="inline-flex items-baseline">
+                            <span className="text-xl font-semibold">27</span>
+                            <span className="ml-2">Posko</span>
                           </p>
-                          <a className="mt-3 text-red-500 inline-flex items-center">
-                            Learn More
-                          </a>
+                          <p className="inline-flex items-baseline mt-2">
+                            <span className="text-xl font-semibold text-yellow-500">
+                              60%
+                            </span>
+                            <span className="ml-2">Bantuan terpenuhi</span>
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="p-4 md:w-1/3">
-                      <div className="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
+                      <div className="flex flex-col h-full p-8 bg-gray-100 rounded-lg">
                         <div className="flex items-center mb-3">
-                          <h2 className="text-gray-900 text-lg title-font font-medium">
-                            Neptune
+                          <h2 className="text-2xl font-medium text-gray-900 title-font">
+                            Sint nulla nulla qui tempor occaecat 27 Mei 2010
                           </h2>
                         </div>
-                        <div className="flex-grow">
-                          <p className="leading-relaxed text-base">
-                            Blue bottle crucifix vinyl post-ironic four dollar
-                            toast vegan taxidermy. Gastropub indxgo juice
-                            poutine.
+                        <div className="flex-grow mt-2">
+                          <p className="inline-flex items-baseline">
+                            <span className="text-xl font-semibold">27</span>
+                            <span className="ml-2">Posko</span>
                           </p>
-                          <a className="mt-3 text-red-500 inline-flex items-center">
-                            Learn More
-                            <svg
-                              fill="none"
-                              stroke="currentColor"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                              strokeWidth="2"
-                              className="w-4 h-4 ml-2"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M5 12h14M12 5l7 7-7 7"></path>
-                            </svg>
-                          </a>
+                          <p className="inline-flex items-baseline mt-2">
+                            <span className="text-xl font-semibold text-green-500">
+                              90%
+                            </span>
+                            <span className="ml-2">Bantuan terpenuhi</span>
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -94,26 +91,26 @@ export default function Home() {
               <h1 className="text-4xl font-bold">Berita</h1>
             </div>
             <div className="text-gray-700 body-font">
-              <div className="container px-4 py-16 mx-auto">
+              <div className="container px-4 py-8 mx-auto">
                 <div className="flex flex-wrap -mx-4 -my-8">
-                  <div className="py-8 px-4 lg:w-1/3">
-                    <div className="h-full flex items-start">
-                      <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
-                        <span className="text-gray-500 pb-2 mb-2 border-b-2 border-gray-300">
+                  <div className="px-4 py-8 lg:w-1/3">
+                    <div className="flex items-start h-full">
+                      <div className="flex flex-col flex-shrink-0 w-12 leading-none text-center">
+                        <span className="pb-2 mb-2 text-gray-500 border-b-2 border-gray-300">
                           Jul
                         </span>
-                        <span className="font-medium text-xl text-gray-800 title-font">
+                        <span className="text-xl font-medium text-gray-800 title-font">
                           18
                         </span>
                       </div>
                       <div className="flex-grow pl-6">
-                        <h2 className="tracking-widest text-xs title-font font-medium text-red-500 mb-1">
+                        <h2 className="mb-1 text-xs font-medium tracking-widest text-red-500 title-font">
                           CATEGORY
                         </h2>
-                        <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                        <h1 className="mb-3 text-xl font-medium text-gray-900 title-font">
                           The 400 Blows
                         </h1>
-                        <p className="leading-relaxed mb-5">
+                        <p className="mb-5 leading-relaxed">
                           Photo booth fam kinfolk cold-pressed sriracha leggings
                           jianbing microdosing tousled waistcoat.
                         </p>
@@ -121,10 +118,10 @@ export default function Home() {
                           <img
                             alt="blog"
                             src="https://dummyimage.com/103x103"
-                            className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
+                            className="flex-shrink-0 object-cover object-center w-8 h-8 rounded-full"
                           />
-                          <span className="flex-grow flex flex-col pl-3">
-                            <span className="title-font font-medium text-gray-900">
+                          <span className="flex flex-col flex-grow pl-3">
+                            <span className="font-medium text-gray-900 title-font">
                               Alper Kamu
                             </span>
                           </span>
@@ -132,24 +129,24 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="py-8 px-4 lg:w-1/3">
-                    <div className="h-full flex items-start">
-                      <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
-                        <span className="text-gray-500 pb-2 mb-2 border-b-2 border-gray-300">
+                  <div className="px-4 py-8 lg:w-1/3">
+                    <div className="flex items-start h-full">
+                      <div className="flex flex-col flex-shrink-0 w-12 leading-none text-center">
+                        <span className="pb-2 mb-2 text-gray-500 border-b-2 border-gray-300">
                           Jul
                         </span>
-                        <span className="font-medium text-xl text-gray-800 title-font">
+                        <span className="text-xl font-medium text-gray-800 title-font">
                           18
                         </span>
                       </div>
                       <div className="flex-grow pl-6">
-                        <h2 className="tracking-widest text-xs title-font font-medium text-red-500 mb-1">
+                        <h2 className="mb-1 text-xs font-medium tracking-widest text-red-500 title-font">
                           CATEGORY
                         </h2>
-                        <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                        <h1 className="mb-3 text-xl font-medium text-gray-900 title-font">
                           Shooting Stars
                         </h1>
-                        <p className="leading-relaxed mb-5">
+                        <p className="mb-5 leading-relaxed">
                           Photo booth fam kinfolk cold-pressed sriracha leggings
                           jianbing microdosing tousled waistcoat.
                         </p>
@@ -157,10 +154,10 @@ export default function Home() {
                           <img
                             alt="blog"
                             src="https://dummyimage.com/102x102"
-                            className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
+                            className="flex-shrink-0 object-cover object-center w-8 h-8 rounded-full"
                           />
-                          <span className="flex-grow flex flex-col pl-3">
-                            <span className="title-font font-medium text-gray-900">
+                          <span className="flex flex-col flex-grow pl-3">
+                            <span className="font-medium text-gray-900 title-font">
                               Holden Caulfield
                             </span>
                           </span>
@@ -168,24 +165,24 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="py-8 px-4 lg:w-1/3">
-                    <div className="h-full flex items-start">
-                      <div className="w-12 flex-shrink-0 flex flex-col text-center leading-none">
-                        <span className="text-gray-500 pb-2 mb-2 border-b-2 border-gray-300">
+                  <div className="px-4 py-8 lg:w-1/3">
+                    <div className="flex items-start h-full">
+                      <div className="flex flex-col flex-shrink-0 w-12 leading-none text-center">
+                        <span className="pb-2 mb-2 text-gray-500 border-b-2 border-gray-300">
                           Jul
                         </span>
-                        <span className="font-medium text-xl text-gray-800 title-font">
+                        <span className="text-xl font-medium text-gray-800 title-font">
                           18
                         </span>
                       </div>
                       <div className="flex-grow pl-6">
-                        <h2 className="tracking-widest text-xs title-font font-medium text-red-500 mb-1">
+                        <h2 className="mb-1 text-xs font-medium tracking-widest text-red-500 title-font">
                           CATEGORY
                         </h2>
-                        <h1 className="title-font text-xl font-medium text-gray-900 mb-3">
+                        <h1 className="mb-3 text-xl font-medium text-gray-900 title-font">
                           Neptune
                         </h1>
-                        <p className="leading-relaxed mb-5">
+                        <p className="mb-5 leading-relaxed">
                           Photo booth fam kinfolk cold-pressed sriracha leggings
                           jianbing microdosing tousled waistcoat.
                         </p>
@@ -193,10 +190,10 @@ export default function Home() {
                           <img
                             alt="blog"
                             src="https://dummyimage.com/101x101"
-                            className="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center"
+                            className="flex-shrink-0 object-cover object-center w-8 h-8 rounded-full"
                           />
-                          <span className="flex-grow flex flex-col pl-3">
-                            <span className="title-font font-medium text-gray-900">
+                          <span className="flex flex-col flex-grow pl-3">
+                            <span className="font-medium text-gray-900 title-font">
                               Henry Letham
                             </span>
                           </span>
@@ -211,13 +208,13 @@ export default function Home() {
         </div>
       </main>
       <footer className="text-gray-700 body-font">
-        <div className="container px-5 py-16 mx-auto">
-          <div className="flex flex-wrap md:text-left text-center -mb-10 -mx-4">
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+        <div className="container px-5 py-8 mx-auto">
+          <div className="flex flex-wrap -mx-4 -mb-10 text-center md:text-left">
+            <div className="w-full px-4 lg:w-1/6 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -240,11 +237,11 @@ export default function Home() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="w-full px-4 lg:w-1/6 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -267,11 +264,11 @@ export default function Home() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="w-full px-4 lg:w-1/6 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -294,11 +291,11 @@ export default function Home() {
                 </li>
               </nav>
             </div>
-            <div className="lg:w-1/6 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">
+            <div className="w-full px-4 lg:w-1/6 md:w-1/2">
+              <h2 className="mb-3 text-sm font-medium tracking-widest text-gray-900 title-font">
                 CATEGORIES
               </h2>
-              <nav className="list-none mb-10">
+              <nav className="mb-10 list-none">
                 <li>
                   <a className="text-gray-600 hover:text-gray-800">
                     First Link
@@ -324,23 +321,23 @@ export default function Home() {
           </div>
         </div>
         <div className="border-t border-gray-200">
-          <div className="container px-5 py-8 flex flex-wrap mx-auto items-center">
-            <div className="flex md:flex-no-wrap flex-wrap justify-center md:justify-start">
+          <div className="container flex flex-wrap items-center px-5 py-8 mx-auto">
+            <div className="flex flex-wrap justify-center md:flex-no-wrap md:justify-start">
               <input
-                className="sm:w-64 w-40 bg-gray-100 rounded sm:mr-4 mr-2 border border-gray-400 focus:outline-none focus:border-red-500 text-base py-2 px-4"
+                className="w-40 px-4 py-2 mr-2 text-base bg-gray-100 border border-gray-400 rounded sm:w-64 sm:mr-4 focus:outline-none focus:border-red-500"
                 placeholder="Placeholder"
                 type="text"
               />
-              <button className="inline-flex text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">
+              <button className="inline-flex px-6 py-2 text-white bg-red-500 border-0 rounded focus:outline-none hover:bg-red-600">
                 Button
               </button>
-              <p className="text-gray-500 text-sm md:ml-6 md:mt-0 mt-2 sm:text-left text-center">
+              <p className="mt-2 text-sm text-center text-gray-500 md:ml-6 md:mt-0 sm:text-left">
                 Bitters chicharrones fanny pack
-                <br className="lg:block hidden" />
+                <br className="hidden lg:block" />
                 waistcoat green juice
               </p>
             </div>
-            <span className="inline-flex lg:ml-auto lg:mt-0 mt-6 w-full justify-center md:justify-start md:w-auto">
+            <span className="inline-flex justify-center w-full mt-6 lg:ml-auto lg:mt-0 md:justify-start md:w-auto">
               <a className="text-gray-500">
                 <svg
                   fill="currentColor"
@@ -400,19 +397,19 @@ export default function Home() {
           </div>
         </div>
         <div className="bg-gray-200">
-          <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
-            <p className="text-gray-500 text-sm text-center sm:text-left">
+          <div className="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
+            <p className="text-sm text-center text-gray-500 sm:text-left">
               © 2020 tailblocks —
               <a
                 href="https://twitter.com/knyttneve"
-                className="text-gray-600 ml-1"
+                className="ml-1 text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 @knyttneve
               </a>
             </p>
-            <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">
+            <span className="w-full mt-2 text-sm text-center text-gray-500 sm:ml-auto sm:mt-0 sm:w-auto sm:text-left">
               Enamel pin tousled raclette tacos irony
             </span>
           </div>
