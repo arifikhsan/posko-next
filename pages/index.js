@@ -160,14 +160,14 @@ export default function Home() {
         <div className="bg-gray-200">
           <div className="container flex flex-col flex-wrap px-5 py-4 mx-auto sm:flex-row">
             <p className="text-sm text-center text-gray-500 sm:text-left">
-              © 2020 tailblocks —
+              © 2020 Posko —
               <a
-                href="https://twitter.com/knyttneve"
+                href="https://arifikhsanudin.now.sh/"
                 className="ml-1 text-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                @knyttneve
+                InProduction
               </a>
             </p>
             <span className="w-full mt-2 text-sm text-center text-gray-500 sm:ml-auto sm:mt-0 sm:w-auto sm:text-left">
